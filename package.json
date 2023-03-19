@@ -1,13 +1,11 @@
 {
   "name": "pf-automation",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Automation Testing For https://houzyk.github.io/houzair",
   "scripts": {
     "test": "cypress run"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Houzair Koussa",
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.8.1"
