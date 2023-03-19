@@ -5,7 +5,7 @@ name: Cypress Run
 
 on:
   schedule:
-    - cron:  '46 15,00 * * *'
+    - cron:  '00 12,00 * * *'
 
 jobs:
   build:
