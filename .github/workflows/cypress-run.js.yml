@@ -3,7 +3,9 @@
 
 name: Cypress Run
 
-on: workflow_dispatch
+on:
+  schedule:
+    - cron:  '46 15,00 * * *'
 
 jobs:
   build:
