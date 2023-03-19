@@ -1,0 +1,30 @@
+{
+  "favicon": {
+    "selector": "link[rel='icon']",
+    "specifier": {
+      "shouldhave": "have.attr",
+      "value": "href"
+    },
+    "expectedData": "favicon.ico"
+  },
+  "metaDescription": {
+    "selector": "meta[name='description']",
+    "specifier": {
+      "shouldhave": "have.attr",
+      "value": "content"
+    },
+    "expectedData": "I'm a Mauritian Software Engineer who loves to build stuff with JavaScript."
+  },
+  "metaTitle": {
+    "selector": "title",
+    "expectedData": "Houzair Koussa"
+  },
+  "canonicalURL": {
+    "selector": "link[rel='canonical']",
+    "specifier": {
+      "shouldhave": "have.attr",
+      "value": "href"
+    },
+    "expectedData": "https://houzyk.github.io/houzair/"
+  }
+}
