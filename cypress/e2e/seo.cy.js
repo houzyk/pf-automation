@@ -1,10 +1,9 @@
-const generalFixture = require("../fixtures/general.json");
 const seoFixture = require("../fixtures/seo.json");
 
 describe('SEO Test', () => {
 
   beforeEach(() => {
-    cy.visit(generalFixture.url);
+    cy.visit('/');
   })
 
   it('should have a favicon', () => {
