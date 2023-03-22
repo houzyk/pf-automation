@@ -7,8 +7,8 @@ app.listen(port, () => {
   console.log(`The app server is running on port: ${port}`);
 });
 
-const DIST_DIR = path.join(__dirname, "../dist");
-const HTML_FILE = path.join(DIST_DIR, "../view/public/index.html");
+const DIST_DIR = path.join(__dirname, "./dist");
+const HTML_FILE = path.join(DIST_DIR, "./view/public/index.html");
 
 app.use(express.json());
 app.use(express.static("public"));

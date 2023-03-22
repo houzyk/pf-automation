@@ -5,8 +5,8 @@
   "scripts": {
     "test": "cypress run",
     "view-build": "rm -rf dist && webpack --mode development",
-    "view-dev": "node ./server/index.js",
-    "view-launch": "rm -rf dist && webpack --mode development && node ./server/index.js"
+    "view-dev": "node ./dev-server.js",
+    "view-launch": "rm -rf dist && webpack --mode development && node ./dev-server.js"
   },
   "author": "Houzair Koussa",
   "license": "ISC",
