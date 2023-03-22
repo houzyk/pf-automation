@@ -1,0 +1,25 @@
+{
+  "endpoint": "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://houzyk.github.io/houzair/",
+  "metrics": {
+    "performance": {
+      "param-desktop": "&strategy=desktop&category=performance",
+      "param-mobile": "&strategy=mobile&category=performance",
+      "expectedScore": 0.8
+    },
+    "seo": {
+      "param-desktop": "&strategy=desktop&category=seo",
+      "param-mobile": "&strategy=mobile&category=seo",
+      "expectedScore": 0.8
+    },
+    "accessibility": {
+      "param-desktop": "&strategy=desktop&category=accessibility",
+      "param-mobile": "&strategy=mobile&category=accessibility",
+      "expectedScore": 0.8
+    },
+    "best-practices": {
+      "param-desktop": "&strategy=desktop&category=best-practices",
+      "param-mobile": "&strategy=mobile&category=best-practices",
+      "expectedScore": 0.8
+    }
+  }
+}
