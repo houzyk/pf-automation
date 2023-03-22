@@ -9,9 +9,9 @@ const sharedSuite = (url, metric, expectedScore) => {
   });
 }
 
-describe('Core Web Vitals Test', () => {
+describe('Core Web Vitals Tests', () => {
 
-  it('Passes Performance Desktop', () => {
+  it('Performance - Desktop', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics.performance['param-desktop']}`,
       'performance',
@@ -19,7 +19,7 @@ describe('Core Web Vitals Test', () => {
     );
   });
 
-  it('Passes Performance Mobile', () => {
+  it('Performance - Mobile', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics.performance['param-mobile']}`,
       'performance',
@@ -27,7 +27,7 @@ describe('Core Web Vitals Test', () => {
     );
   });
 
-  it('Passes Accessibility Desktop', () => {
+  it('Accessibility - Desktop', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics.accessibility['param-desktop']}`,
       'accessibility',
@@ -35,7 +35,7 @@ describe('Core Web Vitals Test', () => {
     );
   });
 
-  it('Passes Accessibility Mobile', () => {
+  it('Accessibility - Mobile', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics.accessibility['param-mobile']}`,
       'accessibility',
@@ -43,7 +43,7 @@ describe('Core Web Vitals Test', () => {
     );
   });
 
-  it('Passes SEO Desktop', () => {
+  it('SEO - Desktop', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics.seo['param-desktop']}`,
       'seo',
@@ -51,7 +51,7 @@ describe('Core Web Vitals Test', () => {
     );
   });
 
-  it('Passes SEO Mobile', () => {
+  it('SEO - Mobile', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics.seo['param-mobile']}`,
       'seo',
@@ -59,7 +59,7 @@ describe('Core Web Vitals Test', () => {
     );
   });
 
-  it('Passes Best Practices Desktop', () => {
+  it('Best-Practices - Desktop', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics['best-practices']['param-desktop']}`,
       'best-practices',
@@ -67,7 +67,7 @@ describe('Core Web Vitals Test', () => {
     );
   });
 
-  it('Passes Best Practices Mobile', () => {
+  it('Best-Practices - Mobile', () => {
     sharedSuite(
       `${vitalsFixture.endpoint}${vitalsFixture.metrics['best-practices']['param-mobile']}`,
       'best-practices',
