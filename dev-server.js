@@ -4,7 +4,7 @@ const path = require("path");
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-  console.log(`The app server is running on port: ${port}`);
+  console.log(`Dev View server is running on port: ${port}`);
 });
 
 const DIST_DIR = path.join(__dirname, "./dist");
