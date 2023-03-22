@@ -26,4 +26,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i
+    - name: create env file
+      run: |
+        touch .env
+        echo CWV_API_KEY=${{ secrets.CWV_API_KEY }} >> .env
     - run: npm test
